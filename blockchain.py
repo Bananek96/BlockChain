@@ -1,7 +1,7 @@
 from functools import reduce
 from collections import OrderedDict
 import json
-import pickle
+# import pickle
 
 from hash_util import hash_string_256, hash_block
 
