@@ -2,6 +2,7 @@ from time import time
 
 from utility.printable import Printable
 
+
 class Block(Printable):
     """A single block of our blockchain.
     
@@ -18,5 +19,3 @@ class Block(Printable):
         self.timestamp = time
         self.transactions = transactions
         self.proof = proof
-
-
